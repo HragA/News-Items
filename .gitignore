@@ -1,3 +1,5 @@
 front-end/apache-tomcat/*
 front-end/downloads/*
 back-end/__pycache__
+**/.DS_Store
+.DS_Store
