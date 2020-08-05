@@ -1,21 +1,21 @@
 <#-- Place your DOM here -->
 <div id="news-items">
-	<h1 class="title">
+	<h1 class="title animate__animated animate__fadeInUp">
 		News Items
 	</h1>
 	<div class="filter">
-		<div class="searchFilter sameLine">
+		<div class="searchFilter sameLine animate__animated animate__fadeInLeft">
 			<input type="text" v-model="search" placeholder="Search For News Item" class="outlineEffect"/>
-			<i class="fa fa-search"></i>
+			<i class="fa fa-search" style="pointer-events:none"></i>
 		</div>
-		<div class="categoryFilter sameLine">
+		<div class="categoryFilter sameLine animate__animated animate__fadeInRight">
 			<h3 class="sameLine">Categorys: </h3>
 			<select v-model="selected_category" class="outlineEffect">
 				<option v-for="category in categorys" :value="category.value" class="sameLine">{{category.text}}</option>
 			</select>
 		</div>
 	</div>
-	<div class="grid-container">
+	<div class="grid-container animate__animated animate__fadeInUpBig">
 		<div v-for="newsitem in filteredNews" v-if="selected_category == newsitem.category || selected_category == 'all'" class="article">
 			<div class="articleBlock">
 				<img :src="newsitem.imgUrl" class="articleImg">
