@@ -1,0 +1,142 @@
+.title {
+    color: #e63946;
+    text-align: center;
+}
+
+.filter {
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5%;
+}
+
+.searchFilter {
+    width: 50%;
+}
+
+.searchFilter input {
+    width: 90%;
+}
+
+.searchFilter i {
+    position: relative;
+    z-index: 1;
+    left: -30px;
+    top: 1px;
+    color: #7B7B7B;
+    cursor:pointer;
+    width: 0;
+}
+
+.categoryFilter select {
+    display: inline-block;
+}
+
+.outlineEffect {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #023e8a;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+}
+
+.outlineEffect:hover {
+    border: 1px solid #0077b6;
+}
+
+.outlineEffect input:hover {
+    cursor: text;
+}
+
+.categoryFilter select:hover {
+    cursor: pointer;
+}
+
+.sameLine {
+    display: inline-block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.article {
+    padding: 0% 10% 5% 10%;
+    color: black;
+}
+
+.articleBlock {
+    border-style: solid;
+    border-color: #e63946;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #edf2f4;
+}
+
+.articleTitle {
+    font-size: 1.6em;
+    padding: 0% 5% 0% 5%;
+}
+
+.articleExcerpt {
+    font-size: 1em;
+    padding: 1% 1% 0% 1%;
+}
+
+.articleImg {
+    width: 100%;
+    height: 100%;
+}
+
+.articleCategory {
+    margin: 0;
+    padding-top: 2%;
+}
+
+.articleBtn {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #023e8a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0077b6;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
