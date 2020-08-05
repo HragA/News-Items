@@ -15,7 +15,7 @@
 			</select>
 		</div>
 	</div>
-	<div class="grid-container animate__animated animate__fadeInUpBig">
+	<div class="row-container animate__animated animate__fadeInUpBig">
 		<div v-for="newsitem in filteredNews" v-if="selected_category == newsitem.category || selected_category == 'all'" class="article">
 			<div class="articleBlock">
 				<img :src="newsitem.imgUrl" class="articleImg">
@@ -45,9 +45,9 @@
 			newsItems: [],
 			categorys: [
 				{'value': 'all', 'text': 'All'},
-				{'value': 'tech', 'text': 'Tech'},
-				{'value': 'sports', 'text': 'Sports'},
-				{'value': 'business', 'text': 'Business'}
+				{'value': 'Tech', 'text': 'Tech'},
+				{'value': 'Sports', 'text': 'Sports'},
+				{'value': 'Business', 'text': 'Business'}
       		],
 			selected_category: 'all',
 			search: ''

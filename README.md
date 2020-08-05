@@ -25,14 +25,17 @@ or
 
 To run just the frontend client 
 ```mgnl start```
+and go to page http://localhost:8080/magnoliaAuthor and sign in as
+* Username: superuser
+* Password: superuser
 
 please note you must be in the directory to run
 
 ## Built With
 
 Frontend
-* [Java](https://www.java.com/inc/BrowserRedirect1.jsp?locale=en)
 * [Magnolia CLI](https://documentation.magnolia-cms.com/display/DOCS62/Magnolia+CLI)
+* [Java](https://www.java.com/inc/BrowserRedirect1.jsp?locale=en)
 * [Node.js](https://nodejs.org/en/)
 
 Backend
@@ -42,6 +45,7 @@ Backend
 * https://documentation.magnolia-cms.com/display/DOCS62/Install+Magnolia
 * https://documentation.magnolia-cms.com/display/DOCS62/Hello+Magnolia+for+front-end+developers
 * https://academy.magnolia-cms.com/display/WIKI/JS+frameworks+-+Vue.js+contacts+list
+* https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
 ## Authors
 

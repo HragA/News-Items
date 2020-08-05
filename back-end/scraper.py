@@ -19,7 +19,7 @@ def scrape(url, category):
 
 
 def run():
-    scrape("https://time.com/section/tech/", "tech")
-    scrape("https://time.com/section/sports/", "sports")
-    scrape("https://time.com/section/business/", "business")
+    scrape("https://time.com/section/tech/", "Tech")
+    scrape("https://time.com/section/sports/", "Sports")
+    scrape("https://time.com/section/business/", "Business")
     return newsItemsArr
