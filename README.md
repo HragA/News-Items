@@ -47,10 +47,6 @@ Backend
 * https://academy.magnolia-cms.com/display/WIKI/JS+frameworks+-+Vue.js+contacts+list
 * https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
-## Authors
-
-* **Hrag Ayvazian** - *News Items* - [HragA](https://github.com/HragA)
-
 ## License
 
 This project is licensed under the MIT License.
